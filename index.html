@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="ANX4 OS by ANIXE444: a Linux-inspired experimental desktop simulated in your browser. No real operating system is installed.">
+<meta property="og:title" content="ANX4 OS">
+<meta property="og:description" content="A Linux-inspired experimental desktop running in your browser.">
+<meta name="theme-color" content="#050506">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ANX4 OS — Experimental Environment</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section id="intro" class="scr"><div id="lg"></div><div id="boot"></div>
+<div id="tt"><h2>ANX4 EXPERIMENTAL ENVIRONMENT</h2><p><b>ACCESS YOUR OWN DIGITAL ENVIRONMENT.</b></p><p>ANX4 OS — A Linux-inspired experimental desktop running in your browser.</p><p>Explore a custom desktop, launch applications, interact with a terminal, and experience the ANX4 environment.</p><button class="pri go" id="go">INITIALIZE SYSTEM</button><p style="color:var(--m);font-size:.8rem">Browser-based simulation. No real operating system is installed.</p></div>
+<button id="skip" style="position:absolute;top:14px;right:14px">Skip</button></section>
+
+<section id="login" class="scr hide"><div id="ck"></div><button id="pw" aria-label="Power" title="Back to intro">⏻</button>
+<div class="av" id="av"></div><form id="lf"><input id="un" placeholder="Username" autocomplete="off" aria-label="Username"><input id="ps" type="password" placeholder="Password (any)" autocomplete="off" aria-label="Password"><button class="pri">LOG IN</button></form>
+<div id="st">● System ready · demo login, any credentials work, nothing is stored</div></section>
+<section id="ov" class="scr hide"><b style="letter-spacing:.2em">INITIALIZING USER SESSION</b><div class="bar"><i></i></div></section>
+
+<section id="desk" class="scr hide"><div id="wolf"></div><div id="ic"></div><div id="wins"></div>
+<div id="launch" class="pan hide"><input id="lq" placeholder="Search apps" style="width:100%" aria-label="Search apps"><div class="g" id="lg2"></div><button id="lo">⏻ Log out</button> <button id="rs">Reset demo</button></div>
+<div id="nl" class="pan hide"></div><div id="toasts"></div><div id="cm" class="hide"></div>
+<div id="tbar"><button id="sb" aria-label="Start" style="padding:4px 8px"></button><div id="run"></div><div id="tray"><span class="hm">📶 🔊 🔋</span><button id="bell" aria-label="Notifications">🔔</button><span id="clk"></span></div></div></section>
+
+<script src="js/app.js" defer></script>
+</body>
+</html>
